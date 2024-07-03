@@ -77,5 +77,5 @@ class ThemeNotifier extends ChangeNotifier {
     darkMode == isOn ? _darkMode! : _darkMode = !_darkMode!;
     _savePreferences();
     notifyListeners();
-  }
+  }
 }

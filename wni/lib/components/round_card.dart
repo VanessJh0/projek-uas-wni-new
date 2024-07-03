@@ -134,7 +134,7 @@ class RoundCard extends StatelessWidget {
               ),
             )
         ],
-      ),
-    );
-  }
+      ),
+    );
+  }
 }

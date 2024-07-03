@@ -48,5 +48,5 @@ class Wisata {
         timestamp = doc.data()!["timestamp"],
         likes = (doc.data()!["likes"] as List<dynamic>?)
             ?.map((like) => like.toString())
-            .toList();
+            .toList();
 }
